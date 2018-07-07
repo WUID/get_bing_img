@@ -12,7 +12,7 @@ import (
 
 func get_img_url() string {
 
-    resp, err := http.Get("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=0")
+    resp, err := http.Get("https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1")
     if err != nil {
         fmt.Println(err)
     }
